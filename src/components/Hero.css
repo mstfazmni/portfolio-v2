@@ -1,0 +1,11 @@
+.hero-section {
+    height: 100vh;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    color: #00ffd1;
+}
