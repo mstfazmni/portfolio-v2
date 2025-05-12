@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
-        <Hero />
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Projects />
+    </>
   );
 }
 

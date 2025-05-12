@@ -1,0 +1,7 @@
+.navbar {
+  background-color: #0f172a !important;
+  z-index: 999;
+}
+.nav-link {
+  cursor: pointer;
+}
