@@ -7,7 +7,7 @@
   border: 1px solid #ffffff25;
   border-radius: 10px;
   overflow: hidden;
-  padding: 20px;
+  padding: 30px;
 }
 
 .card-img {
@@ -24,4 +24,34 @@
   bottom: 10%;
   width: 1px;
   background-color: #555;
+}
+.arrow-button {
+  position: absolute;
+  top: 90%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 3rem;
+  z-index: 2;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.arrow-button:hover {
+  color: #198754; /* optional hover color */
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.custom-card {
+  position: relative;
+  min-height: 300px; /* adjust based on content */
+  border-radius: 12px;
 }
