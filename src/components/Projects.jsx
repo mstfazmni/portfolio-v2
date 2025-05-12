@@ -1,10 +1,6 @@
-import React , {useState} from 'react';
+import React from 'react';
 import './Projects.css';
 import Card from './Card';
-
-
-
-
 
 function Projects() {
   
