@@ -1,0 +1,14 @@
+.projects-section {
+  height: 100vh;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devider {
+  flex: 1;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin-left: 20px;
+}
