@@ -1,4 +1,27 @@
+.card-wrapper {
+  max-width: 700px;
+  width: 100%;
+}
+
+.custom-card {
+  border: 1px solid #ffffff25;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
 .card-img {
   height: 100%;
   object-fit: cover;
+  border-left: 1px solid #444;
+}
+
+.vertical-divider {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10%;
+  bottom: 10%;
+  width: 1px;
+  background-color: #555;
 }

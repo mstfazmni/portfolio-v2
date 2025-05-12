@@ -1,26 +1,28 @@
-import React from "react";
-import './Card.css';
+import React from 'react';
+import './Card.css'
 
-
-function Card () {
-    return (
-          <div className="card bg-dark text-white">
-          <div className="row no-gutters">
-            <div className="col-md-4">
-              <img src="/assets/images/1.jpg" className="card-img" alt="TaskManagment Screenshot" />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Task Managment</h5>
-                <p className="card-text">React, JS, Bootstrap</p>
-                <p className="card-text">A task manager for planning and make collabration easier.</p>
-                <a href="#" className="btn btn-success mr-2">Live Demo</a>
-                <a href="#" className="btn btn-outline-light">GitHub Code</a>
-              </div>
-            </div>
-          </div>
+function Card({ project }) {
+  return (
+    <div className="card-wrapper mx-auto">
+    <div className="card bg-dark text-white custom-card">
+        <div className="row no-gutters flex-row-reverse">
+        <div className="col-md-4 position-relative">
+            <img src={project.image} className="card-img" alt={`${project.title} Screenshot`} />
+            <div className="vertical-divider"></div>
         </div>
-    )
+        <div className="col-md-8">
+            <div className="card-body">
+            <h5 className="card-title">{project.title}</h5>
+            <p className="card-text">{project.tech}</p>
+            <p className="card-text">{project.description}</p>
+            <a href={project.liveDemo} className="btn btn-success me-2" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href={project.github} className="btn btn-outline-light" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+  );
 }
 
 export default Card;

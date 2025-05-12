@@ -13,6 +13,9 @@ function Navbar() {
               <Link to="home" smooth={true} duration={500} className="nav-link" offset={-60}>Home</Link>
             </li>
             <li className="nav-item">
+              <Link to="skills" smooth={true} duration={500} className="nav-link" offset={-60}>Skills</Link>
+            </li>
+            <li className="nav-item">
               <Link to="projects" smooth={true} duration={500} className="nav-link" offset={-60}>Projects</Link>
             </li>
             <li className="nav-item">
