@@ -2,11 +2,12 @@ import React from "react";
 import {Link} from 'react-scroll';
 import './Navbar.css';
 
+
 function Navbar() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark  fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#">Mostafa Zamani</a>
+        <img src='/assets/images/mz.png' className="img-fluid" style={{ width: '80px' }} alt="Logo" />
         <div>
           <ul className="navbar-nav ml-auto d-flex flex-row gap-3">
             <li className="nav-item">
@@ -25,6 +26,7 @@ function Navbar() {
         </div>
       </div>
     </nav>
+    
     );
 }
 
