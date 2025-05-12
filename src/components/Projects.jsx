@@ -46,7 +46,7 @@ function Projects() {
   const currenProject = projectData[currentIndex];
 
   return (
-    <section className="projects-section py-5 text-white" id="projects">
+    <section className="projects-section  text-white" id="projects">
 
       <div className="container">
       {/* project header */}
