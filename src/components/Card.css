@@ -1,34 +1,57 @@
 .card-wrapper {
-  max-width: 700px;
+  max-width: 60vw;
   width: 100%;
 }
-
 .custom-card {
+  display: flex;
   border: 1px solid #ffffff25;
   border-radius: 10px;
   overflow: hidden;
   padding: 30px;
+  background-color: #1b294a !important;
+  height: 400px;
 }
 
+/* left section info */
+.card-container{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.info-div-left{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  text-align: left;
+}
+
+
+
+/* right sec img */
+
+.img-card-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
 .card-img {
   height: 100%;
   object-fit: cover;
   border-left: 1px solid #444;
+  border-radius: 10px !important;
 }
 
 .vertical-divider {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 10%;
-  bottom: 10%;
   width: 1px;
-  background-color: #555;
+  background-color: #444;
+}
+.arrow-container{
+  display: flex;
+  justify-content: space-around;
 }
 .arrow-button {
-  position: absolute;
-  top: 90%;
-  transform: translateY(-50%);
   background: transparent;
   color: white;
   border: none;
@@ -50,8 +73,3 @@
   right: 10px;
 }
 
-.custom-card {
-  position: relative;
-  min-height: 300px; /* adjust based on content */
-  border-radius: 12px;
-}
