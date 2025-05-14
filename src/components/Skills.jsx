@@ -13,17 +13,30 @@ function Skills () {
 
               {/* Centered row for icons */}
                 <div className="row text-center flex-grow-1 align-items-center justify-content-center">
-                    <div className="col-md-3 d-flex justify-content-center">
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
+                        <i className="devicon-react-original-wordmark colored skill-icon"></i>
+                    </div>
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
                         <i className="devicon-html5-plain-wordmark colored skill-icon"></i>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-center">
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
                         <i className="devicon-css3-plain-wordmark colored skill-icon"></i>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-center">
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
                         <i className="devicon-javascript-plain colored skill-icon"></i>
                     </div>
-                    <div className="col-md-3 d-flex justify-content-center">
-                        <i className="devicon-react-original-wordmark colored skill-icon"></i>
+                    
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
+                        <i className="devicon-csharp-plain colored skill-icon"></i>
+                    </div>
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
+                        <i className="devicon-java-plain-wordmark colored skill-icon"></i>
+                    </div>
+                     <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
+                        <i className="devicon-nodejs-plain-wordmark colored skill-icon"></i>
+                    </div>
+                    <div className="col-6 col-md-3 d-flex justify-content-center mb-4">
+                        <i className="devicon-mysql-plain-wordmark colored skill-icon"></i>
                     </div>
                 </div>
             </div>
