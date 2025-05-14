@@ -40,7 +40,6 @@ function Projects() {
         {/* Slideshow controls */}
         <div className='slideshow-container text-center'>
           <Card />
-          
         </div>
       </div>
     </section>
